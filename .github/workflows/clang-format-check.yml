@@ -40,7 +40,7 @@ jobs:
       matrix:
         path:
           - check: './'    # path to include
-            exclude: '(Drivers|CMSIS|firmware|Core/RTT|Core/Inc|Core/Src)'    # path to exclude
+            exclude: '(Drivers|CMSIS|firmware|Core/Inc|Core/Src|Core/Startup)'    # path to exclude
           #- check: 'src'
           #  exclude: '(Fonts)' # Exclude file paths containing "Fonts"
           #- check: 'examples'
